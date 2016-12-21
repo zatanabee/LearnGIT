@@ -39,3 +39,8 @@ $git push origin namaBranch
 ingat selalu
 - git add . 
 $git commit -a -m 'comment title'
+
+create a working copy of a local repository by running the command
+$git clone /path/to/repository
+when using a remote server, your command will be
+$git clone username@host:/path/to/repository
