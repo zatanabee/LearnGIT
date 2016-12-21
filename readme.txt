@@ -17,6 +17,7 @@ $git add *.html		---semua html
 
 setelah ditambahka ketik
 $git commit
+ketik "i", ketik judul misal Initial Commit, Esc, ":wq", enter
 
 menambah list file yg tidak di p
 buat file ".gitignore"
