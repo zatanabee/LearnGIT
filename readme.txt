@@ -22,12 +22,32 @@ ketik "i", ketik judul misal Initial Commit, Esc, ":wq", enter
 menambah list file yg tidak di p
 buat file ".gitignore"
 $touch .gitignore
+edit .gitigore ex: *.log
+git add .
+git commit -a -m 'add igmore file'
+
 
 membuat branch
 $git branch namaBranch
 
 pindah branch
 $git checkout namaBranch
+
+merge branch
+- pastikan berada di branch destinasi
+- $git merge myBranch
+
+like an undo
+$git stash
+
+after the redo with
+$git stash apply
+
+clone rep
+git clone https://url.git
+
+change directory
+cd dirName
 
 remote
 $git remote add origin https:/github.com/zatanabee/LearnGIT.git
